@@ -1,17 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ScribbleBloom Studio 🌸</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScribbleBloom Studio</title>
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fdf6e3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2a7a4d;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2a7a4d;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1f5e38;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 32px;
+            color: #2a7a4d;
+        }
+
+        section p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 10px auto 30px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            padding: 20px;
+            width: 250px;
+            background-color: #fff;
+        }
+
+        .product-card h3 {
+            margin-top: 0;
+            color: #2a7a4d;
+        }
+
+        .product-card p {
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #2a7a4d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1f5e38;
+        }
+
+        footer {
+            background-color: #2a7a4d;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 <body>
-  <h1>Welcome to ScribbleBloom Studio</h1>
-  <p>Your home for journals, digital products, and AI-powered income guides 🚀</p>
-  
-  <h2>✨ Free Guide</h2>
-  <p>Get your <b>5 AI Income Secrets</b> guide — join our newsletter below!</p>
-  
-  <!-- 🔽 MailerLite Form Embed Code Will Go Here 🔽 -->
-  
+
+    <!-- Header -->
+    <header>
+        <h1>ScribbleBloom Studio 🌸</h1>
+        <p>Journals, Coloring Books, and Creative Products to Inspire You</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About ScribbleBloom</h2>
+        <p>
+            At ScribbleBloom Studio, we create beautiful journals, coloring books, and wellness guides to spark your creativity and inspire personal growth.
+        </p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <h3>Journals</h3>
+                <p>Handmade journals to capture your thoughts and dreams.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <h3>Coloring Books</h3>
+                <p>Relax and express creativity with our unique coloring books.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <h3>Herbal Guides</h3>
+                <p>Natural wellness guides for better health and lifestyle.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:hello@scribblebloomstudio.com">hello@scribblebloomstudio.com</a></p>
+        <p>Follow us on social media:</p>
+        <a href="https://instagram.com/scribblebloomstudio" target="_blank">Instagram</a> |
+        <a href="https://facebook.com/scribblebloomstudio" target="_blank">Facebook</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 ScribbleBloom Studio. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
